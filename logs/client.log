@@ -1,0 +1,72 @@
+2025-04-28 10:02:13,736 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-28 10:02:33,739 [INFO] Sending query: hello world
+2025-04-28 13:41:45,293 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-28 13:41:53,314 [INFO] Sending query: hello world
+2025-04-29 10:51:45,134 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-29 10:51:45,203 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 223, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1392, in _real_connect
+    super().connect(addr)
+    ~~~~~~~~~~~~~~~^^^^^^
+OSError: [WinError 10049] The requested address is not valid in its context
+2025-04-29 10:52:11,134 [INFO] Sending query: test_check
+2025-04-29 10:52:11,180 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 223, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1392, in _real_connect
+    super().connect(addr)
+    ~~~~~~~~~~~~~~~^^^^^^
+OSError: [WinError 10049] The requested address is not valid in its context
+2025-04-29 11:00:59,337 [INFO] Sending query: bananas_are_cool
+2025-04-29 11:00:59,405 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 223, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1392, in _real_connect
+    super().connect(addr)
+    ~~~~~~~~~~~~~~~^^^^^^
+OSError: [WinError 10049] The requested address is not valid in its context
+2025-04-29 11:32:07,026 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-29 11:32:07,087 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 223, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1392, in _real_connect
+    super().connect(addr)
+    ~~~~~~~~~~~~~~~^^^^^^
+OSError: [WinError 10049] The requested address is not valid in its context
+2025-04-29 11:39:46,000 [INFO] Sending query: 11;0;23;6;0;21;4;0;
+2025-04-29 11:39:46,052 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 223, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1392, in _real_connect
+    super().connect(addr)
+    ~~~~~~~~~~~~~~~^^^^^^
+OSError: [WinError 10049] The requested address is not valid in its context
+2025-04-29 11:41:42,010 [INFO] Sending query: bananas_are_cool
+2025-04-29 11:43:27,708 [INFO] Sending query: 12;0;1;28;0;17;4;0;
+2025-04-29 11:43:38,358 [INFO] Sending query: hello world

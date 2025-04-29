@@ -1,0 +1,6 @@
+2025-04-28 10:49:00,999 - Failed to load data: [Errno 2] No such file or directory: 'data/200K.txt'
+2025-04-28 10:49:01,043 - Server running at 127.0.0.1:9999 (SSL Enabled: False)
+2025-04-28 12:19:24,224 - Failed to load data: [Errno 2] No such file or directory: 'data/200K.txt'
+2025-04-28 12:19:24,328 - Server running at 127.0.0.1:9999 (SSL Enabled: False)
+2025-04-28 12:53:40,282 - Failed to load data: [Errno 2] No such file or directory: 'data/200K.txt'
+2025-04-28 12:53:40,289 - Server running at 127.0.0.1:9999 (SSL Enabled: False)

@@ -1,0 +1,236 @@
+2025-04-23 18:46:28,655 - INFO - Connected to server at 127.0.0.1:9999
+2025-04-23 18:46:49,339 - INFO - Sent data: 8;0;23;21;0;24;5;0;
+2025-04-23 18:46:49,340 - INFO - Received response: STRING NOT FOUND
+
+2025-04-23 18:47:18,779 - INFO - Sent data: 10;0;16;28;0;21;5;0;
+2025-04-23 18:47:18,781 - ERROR - Error sending data: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-23 19:11:04,922 - ERROR - Error sending data: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-23 19:14:15,985 - ERROR - Error sending data: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-23 19:14:27,085 - ERROR - Error sending data: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-23 19:15:26,507 - ERROR - Error sending data: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-23 19:25:13,399 [INFO] Sending query: 10;0;16;28;0;21;5;0;
+2025-04-23 19:26:02,332 [INFO] Sending query: hello
+2025-04-23 19:26:23,524 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-24 13:07:28,002 [INFO] Sending query: 8;0;23;21;0;24;5;0;
+2025-04-24 13:25:40,655 [INFO] Sending query: test123
+2025-04-24 13:40:02,115 [INFO] Sending query: linuxpath=test_data/sample2.txt
+2025-04-24 13:41:39,308 [INFO] Sending query: my_test_string
+2025-04-24 13:43:03,402 [INFO] Sending query: my_test_string
+2025-04-24 14:27:18,120 [INFO] Sending query: bananas_are_cool
+2025-04-24 14:37:14,606 [INFO] Sending query: test_check
+2025-04-24 14:37:29,963 [INFO] Sending query: test_check
+2025-04-24 14:38:55,896 [INFO] Sending query: aaaaaaaaaaaaa... (2000 'a's)
+2025-04-24 14:41:30,230 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-24 14:43:16,732 [INFO] Sending query: 9998877787
+2025-04-24 14:45:21,768 [INFO] Sending query: 578975;8;86
+2025-04-24 15:22:50,952 [INFO] Sending query: hello world
+2025-04-25 10:48:03,319 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-25 10:48:14,205 [INFO] Sending query: hello world
+2025-04-25 10:48:26,544 [INFO] Sending query: 13;0;23;11;0;16;5;
+2025-04-26 15:54:08,630 [INFO] Sending query: 12;0;1;28;0;17;4;0;
+2025-04-26 15:54:09,326 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 83, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-26 15:54:32,825 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-26 15:54:32,863 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 83, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-26 15:55:06,745 [INFO] Sending query: 15;0;6;16;0;12;3;0;
+2025-04-26 15:55:06,779 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 83, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-26 16:12:01,270 [INFO] Sending query: 15;0;6;16;0;12;3;0;
+2025-04-26 16:12:01,328 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 83, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-26 16:20:54,823 [INFO] Sending query: 15;0;6;16;0;12;3;0;
+2025-04-26 16:20:54,885 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 83, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-26 19:51:01,953 [INFO] Sending query: 5;0;23;16;0;23;4;0;
+2025-04-26 19:51:02,095 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 83, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-26 19:53:10,359 [INFO] Sending query: 4;0;21;21;0;24;3;0;
+2025-04-26 19:53:10,399 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 83, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-27 18:49:31,284 [INFO] Sending query: 4;0;21;21;0;24;3;0;
+2025-04-27 18:49:31,406 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 150, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-27 18:49:47,044 [INFO] Sending query: 5;0;23;16;0;23;4;0;
+2025-04-27 18:49:47,115 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 150, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-27 22:09:51,588 [INFO] Sending query: 4;0;21;21;0;24;3;0;
+2025-04-27 22:10:23,576 [INFO] Sending query: 5;0;23;16;0;23;4;0;
+2025-04-27 22:10:33,319 [INFO] Sending query: 5;0;23;16;0;23;4;
+2025-04-27 22:13:51,873 [INFO] Sending query: hello world
+2025-04-27 22:13:51,925 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 150, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-27 22:14:05,576 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-27 22:14:05,619 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 150, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-27 22:14:29,315 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-27 22:14:29,349 [ERROR] Unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\tcp_string_search_project\src\client.py", line 150, in send_query
+    s.connect((HOST, PORT))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1396, in _real_connect
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-04-27 22:15:09,331 [INFO] Sending query: 13;0;23;11;0;16;5;0;
+2025-04-27 22:15:20,948 [INFO] Sending query: test_check
+2025-04-27 22:15:35,189 [INFO] Sending query: hello world
+2025-04-27 22:15:46,430 [INFO] Sending query: 11;0;23;6;0;21;4;0;
+2025-04-27 22:16:10,798 [INFO] Sending query: 13;0;23;11;0;16;5;7;
+2025-04-27 22:16:21,211 [INFO] Sending query: clear
+2025-04-27 22:27:35,777 [INFO] Sending query: 11;0;23;6;0;21;4;0;
+2025-04-27 22:28:49,437 [INFO] Sending query: hello world
+2025-04-27 22:30:29,754 [INFO] Sending query: 12;0;1;28;0;17;4;0;
+2025-04-27 22:30:46,308 [INFO] Sending query: bananas_are_cool
+2025-04-27 22:31:32,018 [INFO] Sending query: 12;0;1;28;0;17;4;0;
+2025-04-27 22:41:17,957 [INFO] Sending query: clear

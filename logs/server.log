@@ -1,0 +1,7 @@
+2025-04-28 10:00:35,239 [INFO] Starting server at 127.0.0.1:9999 (SSL Enabled: True)
+2025-04-28 10:02:13,877 [INFO] Connection from 127.0.0.1:50372
+2025-04-28 10:02:13,877 [INFO] Received: 13;0;23;11;0;16;5;0;
+2025-04-28 10:02:13,919 [INFO] Connection closed: 127.0.0.1:50372
+2025-04-28 10:02:33,780 [INFO] Connection from 127.0.0.1:50379
+2025-04-28 10:02:33,780 [INFO] Received: hello world
+2025-04-28 10:02:33,818 [INFO] Connection closed: 127.0.0.1:50379
