@@ -24,7 +24,7 @@ Graceful error handling and service shutdown
 List steps to set up the environment:
 
 # Clone the repository
-git clone https://github.com/yourusername/string-search-server.git
+git clone https://github.com/rasheey97-alt/tcp_string_search_project
 cd string-search-server
 
 # Create virtual environment
